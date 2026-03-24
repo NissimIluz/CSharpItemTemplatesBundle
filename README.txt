@@ -24,5 +24,8 @@ Scripts for PowerShell:
 # Create
 .\build-templates.ps1
 
-# Installs
+# Deploy & Installation
 .\install-templates.ps1
+
+# Installation only (if devenv is not recognized)
+Documents\Visual Studio 18\Templates\ItemTemplates\Visual C#>"C:\Program Files\Microsoft Visual Studio\2022\Professional\Common7\IDE\devenv.exe"  /installvstemplates

@@ -1,13 +1,14 @@
 <VSTemplate Version="3.0.0" Type="Item"
  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>Class</Name>
+    <Name>Custom Class</Name>
     <Description>Creates a public class with file-scoped namespace.</Description>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>MyClass.cs</DefaultName>
-    <SortOrder>10</SortOrder>
+    <SortOrder>1</SortOrder>
+    <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem ReplaceParameters="true">ClassTemplate.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">Class.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

@@ -1,7 +1,7 @@
 $ErrorActionPreference = "Stop"
 
 $source = Join-Path $PSScriptRoot "dist"
-$target = Join-Path $env:USERPROFILE "Documents\Visual Studio 18\Templates\ItemTemplates\Visual C#"
+$target = Join-Path $env:USERPROFILE "Documents\Visual Studio 18\Templates\ItemTemplates\C#"
 
 Write-Host "==============================="
 Write-Host "Source folder: $source"

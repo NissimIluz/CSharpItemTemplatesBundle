@@ -1,13 +1,14 @@
 <VSTemplate Version="3.0.0" Type="Item"
  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>Record</Name>
+    <Name>Custom Record</Name>
     <Description>Creates a public record with file-scoped namespace.</Description>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>MyRecord.cs</DefaultName>
-    <SortOrder>40</SortOrder>
+    <SortOrder>4</SortOrder>
+    <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem ReplaceParameters="true">RecordTemplate.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">Record.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

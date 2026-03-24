@@ -1,13 +1,14 @@
 <VSTemplate Version="3.0.0" Type="Item"
  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>Enum</Name>
+    <Name>Custom Enum</Name>
     <Description>Creates a public enum with file-scoped namespace.</Description>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>MyEnum.cs</DefaultName>
-    <SortOrder>30</SortOrder>
+     <SortOrder>3</SortOrder>
+    <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem ReplaceParameters="true">EnumTemplate.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">Enum.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

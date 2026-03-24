@@ -1,13 +1,14 @@
 <VSTemplate Version="3.0.0" Type="Item"
  xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
   <TemplateData>
-    <Name>Interface</Name>
+    <Name>Custom Interface</Name>
     <Description>Creates a public interface with file-scoped namespace.</Description>
     <ProjectType>CSharp</ProjectType>
     <DefaultName>IMyInterface.cs</DefaultName>
-    <SortOrder>20</SortOrder>
+    <SortOrder>2</SortOrder>
+    <ProvideDefaultName>true</ProvideDefaultName>
   </TemplateData>
   <TemplateContent>
-    <ProjectItem ReplaceParameters="true">InterfaceTemplate.cs</ProjectItem>
+    <ProjectItem ReplaceParameters="true">Interface InterfaceTemplate.cs</ProjectItem>
   </TemplateContent>
 </VSTemplate>

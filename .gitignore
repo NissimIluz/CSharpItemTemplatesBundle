@@ -28,3 +28,5 @@ Thumbs.db
 
 # Zip outputs
 *.zip
+
+install-templates-oneDrive.ps1
