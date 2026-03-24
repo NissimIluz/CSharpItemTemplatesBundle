@@ -1,0 +1,13 @@
+<VSTemplate Version="3.0.0" Type="Item"
+ xmlns="http://schemas.microsoft.com/developer/vstemplate/2005">
+  <TemplateData>
+    <Name>Interface</Name>
+    <Description>Creates a public interface with file-scoped namespace.</Description>
+    <ProjectType>CSharp</ProjectType>
+    <DefaultName>IMyInterface.cs</DefaultName>
+    <SortOrder>20</SortOrder>
+  </TemplateData>
+  <TemplateContent>
+    <ProjectItem ReplaceParameters="true">InterfaceTemplate.cs</ProjectItem>
+  </TemplateContent>
+</VSTemplate>

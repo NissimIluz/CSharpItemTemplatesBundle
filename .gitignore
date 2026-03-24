@@ -1,0 +1,30 @@
+# Build
+bin/
+obj/
+
+# VS
+.vs/
+*.user
+*.suo
+*.cache
+*.csproj.user
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Rider / Resharper
+.idea/
+*.DotSettings.user
+
+
+
+# Temp
+*.tmp
+*.temp
+
+# Zip outputs
+*.zip
